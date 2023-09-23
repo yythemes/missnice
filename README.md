@@ -7,7 +7,7 @@
 ### 主题演示
 [https://demo.yythemes.com/missnice/](https://demo.yythemes.com/missnice/)
 
-![missnice](https://raw.githubusercontent.com/xenice/missnice/master/screenshot.png)
+![missnice](https://raw.githubusercontent.com/yythemes/missnice/master/screenshot.png)
 
 ### 主题特色
 - 响应式设计，完美支持PC端和移动端；
