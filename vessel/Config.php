@@ -22,23 +22,24 @@ class Config extends Options
 		// #1fae67 #229e60 #35dc89 Green
 		// #ff4979 #f2295e #fb94af Pink
         $defaults = [
-            'main_color' => '#0099FF',
-            'dark_color' => '#007bff',
-            'light_color'=> '#99CCFF',
+            'main_color' => '#FF5E52',
+            'dark_color' => '#f13c2f',
+            'light_color'=> '#fc938b',
             'link_color' => '#555555',
-            'bg_color'   => '#FFFFFF',
+            'bg_color'   => '#fafafa',
             'fg_color'   => '#333333',
             
-            'hf_main_color' => '#0099FF',
-            'hf_dark_color' => '#007bff',
-            'hf_light_color'=> '#99CCFF',
+            'hf_main_color' => '#FF5E52',
+            'hf_dark_color' => '#f13c2f',
+            'hf_light_color'=> '#fc938b',
             'hf_link_color' => '#555555',
-            'hf_bg_color'   => '#FFFFFF',
+            'hf_bg_color'   => '#ffffff',
             'hf_fg_color'   => '#333333',
             
             'page_width' => 1200,
             
         ];
+        
         $this->name = 'xenice_' . $this->key;
         /**
     	 * Filter default values
@@ -199,10 +200,22 @@ class Config extends Options
                                     'label'  => esc_html__('Enable css animation', 'onenice')
                                 ],
                                 [
+                                    'id'   => 'enable_photoswipe',
+                                    'type'  => 'checkbox',
+                                    'value' => true,
+                                    'label'  => esc_html__('Enable PhotoSwipe', 'onenice')
+                                ],
+                                [
                                     'id'   => 'enable_like',
                                     'type'  => 'checkbox',
                                     'value' => true,
                                     'label'  => esc_html__('Give a like', 'onenice')
+                                ],
+                                [
+                                    'id'   => 'enable_home_sticky_posts',
+                                    'type'  => 'checkbox',
+                                    'value' => true,
+                                    'label'  => esc_html__('Enable home sticky posts.', 'onenice')
                                 ],
                                 [
                                     'id'    => 'enable_back_to_top',
@@ -210,6 +223,8 @@ class Config extends Options
                                     'type'  => 'checkbox',
                                     'value' => false
                                 ],
+                                
+                                
                             ]
                         ],
                         

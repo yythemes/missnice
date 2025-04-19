@@ -3,7 +3,7 @@
     .post-title{
     	font-size:18px;
     	a{
-    	    font-size:18px;
+    	    font-size: 18px;
     	}
     }
     .post-meta{
@@ -11,6 +11,7 @@
     	color:#999;
     	a,span{
     	    margin-right:10px;
+    	    font-size:12px;
     	}
     }
     .post-content{
@@ -65,8 +66,8 @@
         }
     }
     .related{
-    	margin-top:30px;
-    	margin-bottom:30px;
+    	margin-top:10px;
+    	margin-bottom:10px;
     	ul{
         	display: flex;
         	flex-flow: wrap;

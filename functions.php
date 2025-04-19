@@ -1,4 +1,6 @@
 <?php
+
+
 /**
  * Functions
  *
@@ -6,6 +8,7 @@
  */
 
 require __DIR__ . '/vessel/vessel.php';
+
 
 /**
  * Get option
@@ -95,7 +98,7 @@ function yy_breadcrumb() {
 		$row = get_term( $cid, $taxonomy );
 		$pid = $row->parent;
 		if ( $pid ) {
-			yy_get_greadcrumb( $pid );
+			yy_get_greadcrumb( $pid, $taxonomy);
 		}
 		echo '<a class="breadcrumb-item" href="' . esc_attr( get_term_link( $row->term_id, $taxonomy ) ) . '">' . esc_html( $row->name ) . '</a>';
 	}
@@ -187,7 +190,9 @@ function yy_login() {
             echo '<a class="dropdown-item" href="' . esc_html( xenice\commerce\get_page_url('my_orders') ) . '">' . esc_html__('My orders', 'onenice' ) . '</a>';
         }
 		?>
-		
+		<?php if(current_user_can('edit_posts')):?>
+            <a class="dropdown-item" href="<?php echo esc_attr( get_admin_url()); ?>"><?php esc_html_e( 'Manage', 'onenice' ); ?></a>
+		<?php endif;?>
 			<a class="dropdown-item" href="<?php echo esc_attr( wp_logout_url() ); ?>"><?php esc_html_e( 'Logout', 'onenice' ); ?></a>
 			</div>
 		</div>
@@ -253,35 +258,21 @@ add_action( 'pre_get_posts', 'yy_exclude_sticky_posts' );
 /**
  * Clean excerpt html
  *
- * @param string $str   query object.
+ * @param string $excerpt   query object.
  * @return string       Return to the overworry excerpt.
  */
-function yy_excerpt( $str ) {
-	return wp_strip_all_tags( $str );
+function yy_excerpt( $excerpt ) {
+	$excerpt = wp_strip_all_tags( $excerpt );
+	$max_len = yy_get( 'excerpt_length' );
+	if(mb_strlen($excerpt)>$max_len){
+        return mb_substr($excerpt, 0, $max_len).'...';
+    }
+    else{
+        return $excerpt;
+    }
 }
 add_filter( 'the_excerpt', 'yy_excerpt' );
 
-/**
- * Change excerpt length
- *
- * @param int $length   Excerpt length.
- * @return string       Returns the modified excerpt length.
- */
-function yy_excerpt_length( $length ) {
-	return yy_get( 'excerpt_length' );
-}
-add_filter( 'excerpt_length', 'yy_excerpt_length' );
-
-/**
- * Change the content at the end of the excerpt
- *
- * @param string $more   Later original content.
- * @return string       Returns the modified content at the end of the excerpt.
- */
-function yy_excerpt_more( $more ) {
-	return ' ...';
-}
-add_filter( 'excerpt_more', 'yy_excerpt_more' );
 
 /**
  * Set the default thumbnail url
@@ -331,50 +322,6 @@ function yy_get_post_first_image($post){
 
     return false;
 }
-
-/**
- * Since time
- *
- */
-function yy_since($date, $comment_date = false ){
-    $older_date = strtotime($date);
-    $chunks = array(
-        array( 12 * 30 * 24 * 60 * 60, __( ' years ago', 'onenice') ),
-        array( 30 * 24 * 60 * 60, __( ' months ago', 'onenice') ),
-        array( 24 * 60 * 60, __( ' days ago', 'onenice') ),
-        array( 60 * 60, __( ' hours ago', 'onenice') ),
-        array( 60, __( ' minutes ago', 'onenice') ),
-        array( 1, __( ' seconds ago', 'onenice') )
-    );
-
-    $newer_date = time();
-    $since      = abs( $newer_date - $older_date );
-    
-    if ( $since < 10 * 12 * 30 * 24 * 60 * 60 ) {
-        for ( $i = 0, $j = count( $chunks ); $i < $j; $i ++ ) {
-            
-            $seconds = $chunks[ $i ][0];
-            $name    = $chunks[ $i ][1];
-            if (($count = floor($since / $seconds )) != 0 ) {
-                break;
-            }
-        }
-        $output = $count . $name;
-    } else {
-        $output = $comment_date ? date( 'Y-m-d H:i', $older_date ) : date( 'Y-m-d', $older_date );
-    }
-    return $output;
-}
-
-/**
- * Format time
- *
- */
-function yy_format_date($date){
-    return yy_since($date);
-}
-add_filter( 'get_the_date', 'yy_format_date', 20, 1);
-add_filter( 'the_date', 'yy_format_date', 20, 1);
 
 
 
@@ -429,6 +376,7 @@ if ( ! is_admin() ) {
 					wp_enqueue_script( 'share', STATIC_URL . '/libs/share/js/social-share.min.js', array(), '1.0.16', true );
 				}
 			}
+			
 		}
 
 	}
@@ -440,21 +388,21 @@ if ( ! is_admin() ) {
 	 * Add style
 	 */
 	function yy_head(){
-
+        
 		// set theme color.
 		$vars = [];
-	    $vars['--yy-main-color']  = yy_get( 'main_color' )?:'#0099FF';
-	    $vars['--yy-dark-color']  = yy_get( 'dark_color' )?:'#007bff';
-	    $vars['--yy-light-color'] = yy_get( 'light_color' )?:'#99CCFF';
+	    $vars['--yy-main-color']  = yy_get( 'main_color' )?:'#FF5E52';
+	    $vars['--yy-dark-color']  = yy_get( 'dark_color' )?:'#f13c2f';
+	    $vars['--yy-light-color'] = yy_get( 'light_color' )?:'#fc938b';
 	    $vars['--yy-link-color']  = yy_get( 'link_color' )?:'#555555';
-	    $vars['--yy-bg-color']    = yy_get( 'bg_color' )?:'#ffffff';
+	    $vars['--yy-bg-color']    = yy_get( 'bg_color' )?:'#fafafa';
 	    $vars['--yy-fg-color']    = yy_get( 'fg_color' )?:'#333333';
 		
-		$vars['--yy-hf-main-color']  = yy_get( 'hf_main_color' )?:'#0099FF';
-	    $vars['--yy-hf-dark-color']  = yy_get( 'hf_dark_color' )?:'#007bff';
-	    $vars['--yy-hf-light-color'] = yy_get( 'hf_light_color' )?:'#99CCFF';
+		$vars['--yy-hf-main-color']  = yy_get( 'hf_main_color' )?:'#FF5E52';
+	    $vars['--yy-hf-dark-color']  = yy_get( 'hf_dark_color' )?:'#f13c2f';
+	    $vars['--yy-hf-light-color'] = yy_get( 'hf_light_color' )?:'#fc938b';
 	    $vars['--yy-hf-link-color']  = yy_get( 'hf_link_color' )?:'#555555';
-	    $vars['--yy-hf-bg-color']    = yy_get( 'hf_bg_color' )?:'#ffffff';
+	    $vars['--yy-hf-bg-color']    = yy_get( 'hf_bg_color' )?:'#fafafa';
 	    $vars['--yy-hf-fg-color']    = yy_get( 'hf_fg_color' )?:'#333333';
 	    
 		$page_width = yy_get( 'page_width' )?:1200;
@@ -518,6 +466,7 @@ if ( ! is_admin() ) {
 
 	add_action( 'wp_head', 'yy_head' );
 
+    
 	add_action('wp_footer', function() {
 		?>
 		<script>
@@ -533,18 +482,8 @@ if ( ! is_admin() ) {
 				}
 			});
 
-			$(".scroll-top").on("click",function(){
-				$("body,html").animate({"scrollTop":0},500);
-			});
+		
 		});
-
-		function yy_check_search(){
-
-			if(jQuery("#wd").val() == ""){
-				return false;
-			}
-			return true;
-		}
 		</script>
 			<?php
 
@@ -555,20 +494,31 @@ if ( ! is_admin() ) {
 					<?php
 				}
 			}
-			echo '<div class="rollbar md-down-none">';
-			if ( yy_get( 'enable_back_to_top' ) ) {
-				?>
-				<div class="rollbar-item scroll-top" title="<?php esc_attr_e( 'Back to top', 'onenice' ); ?>"><i class="fa fa-angle-up"></i></div>
-				<?php
+			
 
-			}
-			echo '</div>';
+	},99);
+	
+	function yy_rollbar(){
+        ?>
+        <script>
+            jQuery(function($){
+                $(".rollbar .scroll-top").on("click",function(){
+    				$("body,html").animate({"scrollTop":0},500);
+    			});
+            });
+        </script>
+        <?php
+        echo '<div class="rollbar md-down-none">';
+		if ( yy_get( 'enable_back_to_top' ) ) {
+			?>
+			<div class="rollbar-item scroll-top" title="<?php esc_attr_e( 'Back to top', 'onenice' ); ?>"><i class="fa fa-angle-up"></i></div>
+			<?php
 
-		},
-		99
-	);
+		}
+		echo '</div>';
+    }
+    add_action('wp_footer', 'yy_rollbar', 99);
 	
 }
-
 
 

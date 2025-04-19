@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: onenice\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-01 02:28+0000\n"
-"PO-Revision-Date: 2025-04-16 04:29+0000\n"
+"PO-Revision-Date: 2025-04-16 04:25+0000\n"
 "Last-Translator: \n"
 "Language-Team: 简体中文\n"
 "Language: zh_CN\n"
@@ -540,7 +540,7 @@ msgstr "密码长度不应少于6位"
 
 #: ext/class-more.php:15
 msgid "PhotoSwipe"
-msgstr "图片滑动"
+msgstr ""
 
 #: ext/class-photoswipe.php:18
 #| msgid "Photo swipe"

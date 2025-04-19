@@ -1,121 +1,122 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: onenice\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-01 02:28+0000\n"
-"PO-Revision-Date: 2023-09-15 03:25+0000\n"
-"Last-Translator: \n"
-"Language-Team: 简体中文\n"
-"Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: 2023-09-15 03:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.6.4; wp-6.3\n"
+"X-Loco-Version: 2.6.2; wp-6.0.3\n"
 "X-Domain: onenice"
 
 #: functions.php:344
 msgid " days ago"
-msgstr "天前"
+msgstr ""
 
 #: functions.php:345
 msgid " hours ago"
-msgstr "小时前"
+msgstr ""
 
 #: functions.php:346
 msgid " minutes ago"
-msgstr "分钟前"
+msgstr ""
 
 #: functions.php:343
 msgid " months ago"
-msgstr "个月前"
+msgstr ""
 
 #: functions.php:347
 msgid " seconds ago"
-msgstr "秒前"
+msgstr ""
 
 #: functions.php:342
 msgid " years ago"
-msgstr "年前"
+msgstr ""
 
 #: sidebar.php:53 template-parts/related-posts.php:35
 #: vessel/widgets/PostsWidget.php:116 vessel/widgets/PostsWidget.php:136
 msgid "(no title)"
-msgstr "(无标题)"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:244 vessel/login/ajax/LoginAjax.php:294
 msgid ":"
-msgstr "："
+msgstr ""
 
 #. Description of the theme
 msgid "A simple wordpress theme"
-msgstr "一个简单的WordPress主题"
+msgstr ""
 
 #: vessel/vessel.php:163
 msgid "About"
-msgstr "关于"
+msgstr ""
 
 #: vessel/about/Config.php:25 vessel/about/Config.php:26
 msgid "About the theme"
-msgstr "关于主题"
+msgstr ""
 
 #: vessel/Elements.php:207 vessel/Elements.php:286
 msgid "Add"
-msgstr "增加"
+msgstr ""
 
 #: vessel/optimize/Config.php:167
 msgid "Advanced"
-msgstr "高级"
+msgstr ""
 
 #: vessel/Config.php:318 ext/yythemes/Config.php:298
 #: ext/missnice/Config.php:318 ext/yymarket/Config.php:362
 msgid "Archive"
-msgstr "归档"
+msgstr ""
 
 #: functions.php:232
 msgid "archive"
-msgstr "归档"
+msgstr ""
 
 #: sidebar.php:72
 msgid "Archives"
-msgstr "归档"
+msgstr ""
 
 #: vessel/optimize/Config.php:178
 msgid "Auto create post slug"
-msgstr "自动创建文章slug"
+msgstr ""
 
 #: vessel/Config.php:169 ext/missnice/Config.php:169
 #: ext/yymarket/Config.php:169
 msgid "Auxiliary functions"
-msgstr "辅助功能"
+msgstr ""
 
 #: vessel/login/templates/xenice-login.php:178
 msgid "Back to home"
-msgstr "回到首页"
+msgstr ""
 
 #: functions.php:577
 msgid "Back to top"
-msgstr "回到顶部"
+msgstr ""
 
 #: ext/yythemes/Config.php:172
 msgid "Back to top button"
-msgstr "回到顶部按钮"
+msgstr ""
 
 #: vessel/optimize/Config.php:99
 msgid "Back-end optimization"
-msgstr " 后台优化"
+msgstr ""
 
 #: vessel/Config.php:88 vessel/Config.php:130 ext/yythemes/Config.php:89
 #: ext/yythemes/Config.php:131 ext/missnice/Config.php:88
 #: ext/missnice/Config.php:130 ext/yymarket/Config.php:88
 #: ext/yymarket/Config.php:130
 msgid "Background "
-msgstr "背景"
+msgstr ""
 
 #: functions.php:179
 msgid "Buy VIP "
-msgstr "购买VIP"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:184 vessel/login/ajax/LoginAjax.php:185
 #: vessel/login/templates/modal.php:67
@@ -123,166 +124,166 @@ msgstr "购买VIP"
 #: vessel/login/templates/xenice-login.php:124
 #: vessel/login/templates/xenice-login.php:159
 msgid "Captcha"
-msgstr "验证码"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:86
 msgid "Captcha and email do not correspond"
-msgstr "验证码和电子邮件不对应"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:82
 msgid "Captcha error"
-msgstr "验证码错误"
+msgstr ""
 
 #: vessel/login/Login.php:84
 msgid "Captcha has been sent to the email, may appear in the dustbin oh ~"
-msgstr "已经发送到验证码的邮件，可能会出现在垃圾桶里哦~"
+msgstr ""
 
 #: sidebar.php:82
 msgid "Categories"
-msgstr "分类"
+msgstr ""
 
 #: vessel/widgets/PostsWidget.php:216
 msgid "Category:"
-msgstr "分类："
+msgstr ""
 
 #: vessel/login/Login.php:76 vessel/login/templates/xenice-login.php:166
 msgid "Change password"
-msgstr "修改密码"
+msgstr ""
 
 #: vessel/optimize/Config.php:171
 msgid "Comments"
-msgstr "评论"
+msgstr ""
 
 #. %s is the comments number.
 #: comments.php:28
 #, php-format
 msgid "Comments (%s)"
-msgstr "评论 (%s)"
+msgstr ""
 
 #: vessel/login/templates/modal.php:64
 #: vessel/login/templates/xenice-login.php:98
 #: vessel/login/templates/xenice-login.php:156
 msgid "Confirm password"
-msgstr "确认密码"
+msgstr ""
 
 #: vessel/optimize/Config.php:135
 msgid "Convert the html within the code tag to entity before saving posts"
-msgstr "在保存文章之前，将代码标记内的html转换为实体"
+msgstr ""
 
 #: vessel/optimize/Config.php:179
 msgid "Create a unique slug the first time you save the article"
-msgstr "在第一次保存文章时创建一个唯一的slug"
+msgstr ""
 
 #: vessel/Config.php:70 vessel/Config.php:112 ext/yythemes/Config.php:71
 #: ext/yythemes/Config.php:113 ext/missnice/Config.php:70
 #: ext/missnice/Config.php:112 ext/yymarket/Config.php:70
 #: ext/yymarket/Config.php:112
 msgid "Dark"
-msgstr "深暗"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:244 vessel/login/ajax/LoginAjax.php:294
 msgid "Dear "
-msgstr "亲爱的"
+msgstr ""
 
 #: vessel/Config.php:161 ext/yythemes/Config.php:162
 #: ext/missnice/Config.php:161 ext/yymarket/Config.php:161
 msgid "Defalut"
-msgstr "默认"
+msgstr ""
 
 #: vessel/widgets/PostsWidget.php:221 vessel/widgets/PostsWidget.php:223
 msgid "Default"
-msgstr "默认"
+msgstr ""
 
 #: vessel/Config.php:270 ext/yythemes/Config.php:231
 #: ext/missnice/Config.php:270 ext/yymarket/Config.php:270
 msgid "Delete Theme Copyright"
-msgstr "删除主题版权"
+msgstr ""
 
 #: ext/yymarket/xcommerce/templates/download-part.php:62
 msgid "Demo url"
-msgstr "演示地址"
+msgstr ""
 
 #: vessel/Elements.php:252 vessel/Elements.php:270
 msgid "Description:"
-msgstr "描述："
+msgstr ""
 
 #: ext/yymarket/xcommerce/templates/single.php:63
 msgid "Detailed Introduction"
-msgstr "详情介绍"
+msgstr ""
 
 #: vessel/vessel.php:171
 msgid "Developed by <a href=\"https://www.yythemes.com/\">YYThemes</a>."
-msgstr "由<a href=\"https://www.yythemes.com/\">YYThemes</a>开发。"
+msgstr ""
 
 #: vessel/optimize/Config.php:52
 msgid "Disable all built-in widgets"
-msgstr "禁用所有内置小部件"
+msgstr ""
 
 #: vessel/optimize/Config.php:172
 msgid "Disable all comments"
-msgstr "禁用所有评论"
+msgstr ""
 
 #: vessel/optimize/Config.php:70
 msgid "Disable default restapi"
-msgstr "禁用默认的restapi"
+msgstr ""
 
 #: vessel/optimize/Config.php:64
 msgid "Disable emoji"
-msgstr "禁用emoji"
+msgstr ""
 
 #: vessel/optimize/Config.php:76
 msgid "Disable opensans"
-msgstr "禁用opensans"
+msgstr ""
 
 #: vessel/optimize/Config.php:58
 msgid "Disable pingback"
-msgstr "禁用pingback"
+msgstr ""
 
 #: vessel/optimize/Config.php:105
 msgid "Disable revision"
-msgstr "禁用修订版本"
+msgstr ""
 
 #: vessel/Config.php:414 ext/yythemes/Config.php:394
 #: ext/missnice/Config.php:414 ext/yymarket/Config.php:458
 msgid "Disable Share Buttons"
-msgstr "禁用分享按钮"
+msgstr ""
 
 #: vessel/optimize/Config.php:158
 msgid "Disable the front admin bar"
-msgstr "禁用前端导航栏"
+msgstr ""
 
 #: vessel/optimize/Config.php:123
 msgid "Disable update reminders"
-msgstr "禁用更新提醒"
+msgstr ""
 
 #: vessel/widgets/PostsWidget.php:246
 msgid "Display post date?"
-msgstr "显示文章日期?"
+msgstr ""
 
 #: vessel/widgets/PostsWidget.php:242
 msgid "Display post thumbnail?"
-msgstr "显示文章缩略图?"
+msgstr ""
 
 #: ext/yymarket/Config.php:354
 msgid "Display resource quantity"
-msgstr "显示资源数量"
+msgstr ""
 
 #: vessel/login/templates/modal.php:58
 #: vessel/login/templates/xenice-login.php:92
 msgid "Email"
-msgstr "邮箱"
+msgstr ""
 
 #: vessel/login/Login.php:81
 msgid "Email already exists"
-msgstr "邮箱已存在"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:220
 msgid "Email does not exist"
-msgstr "邮箱不存在"
+msgstr ""
 
 #: vessel/login/Login.php:68
 msgid "Email format error"
-msgstr "邮箱格式错误"
+msgstr ""
 
 #: vessel/Config.php:245 vessel/Config.php:252 vessel/Config.php:271
 #: vessel/Config.php:284 vessel/Config.php:352 vessel/Config.php:359
@@ -309,183 +310,183 @@ msgstr "邮箱格式错误"
 #: ext/yymarket/Config.php:431 ext/yymarket/Config.php:438
 #: ext/yymarket/Config.php:445 ext/yymarket/Config.php:452
 msgid "Enable"
-msgstr "开启"
+msgstr ""
 
 #: vessel/Config.php:221 ext/missnice/Config.php:221
 #: ext/yymarket/Config.php:221
 msgid "Enable back to top button"
-msgstr "开启回到顶部按钮"
+msgstr ""
 
 #: vessel/optimize/Config.php:40
 msgid "Enable classic editor"
-msgstr "开启经典编辑器"
+msgstr ""
 
 #: vessel/optimize/Config.php:46
 msgid "Enable classic widget"
-msgstr "开启经典小部件"
+msgstr ""
 
 #: vessel/Config.php:185 ext/yythemes/Config.php:402
 #: ext/missnice/Config.php:185 ext/yymarket/Config.php:185
 msgid "Enable Code Highlight"
-msgstr "开启代码高亮显示"
+msgstr ""
 
 #: vessel/Config.php:199 ext/missnice/Config.php:199
 #: ext/yymarket/Config.php:199
 msgid "Enable css animation"
-msgstr "开启css动画效果"
+msgstr ""
 
 #: vessel/optimize/Config.php:94
 msgid "Enable gravatar acceleration"
-msgstr "启用头像加速"
+msgstr ""
 
 #: vessel/Config.php:217 ext/missnice/Config.php:217
 #: ext/yymarket/Config.php:217
 msgid "Enable home sticky posts."
-msgstr "开启首页顶部文章"
+msgstr ""
 
 #: vessel/optimize/Config.php:129
 msgid "Enable link"
-msgstr "开启链接"
+msgstr ""
 
 #: vessel/Config.php:205 ext/missnice/Config.php:205
 #: ext/yymarket/Config.php:205
 msgid "Enable PhotoSwipe"
-msgstr "开启PhotoSwipe"
+msgstr ""
 
 #: vessel/mail/Config.php:73
 msgid "Enable SMTP Auth service"
-msgstr "启用SMTP验证服务"
+msgstr ""
 
 #: vessel/mail/Config.php:36
 msgid "Enable SMTP email server"
-msgstr "启用SMTP邮箱服务器"
+msgstr ""
 
 #: vessel/Config.php:179 ext/yythemes/Config.php:186
 #: ext/missnice/Config.php:179 ext/yymarket/Config.php:179
 msgid "Enable theme login interface"
-msgstr "启用主题登录界面"
+msgstr ""
 
 #: vessel/Config.php:173 ext/yythemes/Config.php:179
 #: ext/missnice/Config.php:173 ext/yymarket/Config.php:173
 msgid "Enable theme widgets"
-msgstr "启用主题小工具"
+msgstr ""
 
 #: vessel/login/Login.php:66 vessel/login/ajax/LoginAjax.php:74
 #: vessel/login/ajax/LoginAjax.php:277
 msgid "Entered passwords differ"
-msgstr "输入的密码不一致"
+msgstr ""
 
 #: vessel/login/templates/xenice-login.php:175
 msgid "Error request, please check email for reset password link"
-msgstr "请求错误，请检查电子邮件重置密码链接"
+msgstr ""
 
 #: vessel/Config.php:332 ext/yythemes/Config.php:312
 #: ext/missnice/Config.php:332 ext/yymarket/Config.php:376
 msgid "Excerpt Length"
-msgstr "摘要长度"
+msgstr ""
 
 #: vessel/login/Login.php:73
 msgid "execute..."
-msgstr "执行……"
+msgstr ""
 
 #: functions.php:173
 msgid "Expire time: "
-msgstr "过期时间："
+msgstr ""
 
 #: vessel/optimize/Config.php:147
 msgid "Extend the classic editor buttons"
-msgstr "扩展经典编辑器按钮"
+msgstr ""
 
 #: vessel/mail/Config.php:80
 msgid "Fill in ssl if SMTP Auth service is enabled, leave blank if not"
-msgstr "如果启用了SMTP验证服务，请填写ssl，否则不填写"
+msgstr ""
 
 #: vessel/Config.php:260 ext/yythemes/Config.php:221
 #: ext/missnice/Config.php:260 ext/yymarket/Config.php:260
 msgid "Footer"
-msgstr "页脚"
+msgstr ""
 
 #: vessel/Config.php:94 vessel/Config.php:136 ext/yythemes/Config.php:95
 #: ext/yythemes/Config.php:137 ext/missnice/Config.php:94
 #: ext/missnice/Config.php:136 ext/yymarket/Config.php:94
 #: ext/yymarket/Config.php:136
 msgid "Foreground"
-msgstr "前景"
+msgstr ""
 
 #: vessel/login/templates/xenice-login.php:82
 msgid "Forget password ?"
-msgstr "忘记密码?"
+msgstr ""
 
 #: vessel/login/templates/modal.php:30
 msgid "Forget password?"
-msgstr "忘记密码?"
+msgstr ""
 
 #: ext/yythemes/header-product.php:69
 #: ext/yymarket/xcommerce/templates/download-part.php:57
 msgid "Free download"
-msgstr "免费下载"
+msgstr ""
 
 #: vessel/mail/Config.php:42
 msgid "From Name"
-msgstr "发送人名称"
+msgstr ""
 
 #: vessel/optimize/Config.php:152
 msgid "Front-end optimization"
-msgstr "后端优化"
+msgstr ""
 
 #: vessel/optimize/Config.php:31
 msgid "General"
-msgstr "常规"
+msgstr ""
 
 #: vessel/login/templates/modal.php:69
 msgid "Get captcha"
-msgstr "获取验证码"
+msgstr ""
 
 #: vessel/login/Login.php:75 vessel/login/templates/xenice-login.php:131
 msgid "Get New Password"
-msgstr "获取新密码"
+msgstr ""
 
 #: vessel/Config.php:211 ext/missnice/Config.php:211
 #: ext/yymarket/Config.php:211
 msgid "Give a like"
-msgstr "点赞"
+msgstr ""
 
 #: vessel/Config.php:56 ext/yythemes/Config.php:57 ext/missnice/Config.php:56
 #: ext/yymarket/Config.php:56
 msgid "Global"
-msgstr "全局"
+msgstr ""
 
 #: vessel/Config.php:59 ext/yythemes/Config.php:60 ext/missnice/Config.php:59
 #: ext/yymarket/Config.php:59
 msgid "Global Colors"
-msgstr "全局颜色"
+msgstr ""
 
 #: vessel/optimize/Config.php:34
 msgid "Global optimization"
-msgstr "全局优化"
+msgstr ""
 
 #: vessel/Config.php:234 ext/yythemes/Config.php:195
 #: ext/missnice/Config.php:234 ext/yymarket/Config.php:234
 msgid "Header"
-msgstr "页头"
+msgstr ""
 
 #: vessel/Config.php:101 ext/yythemes/Config.php:102
 #: ext/missnice/Config.php:101 ext/yymarket/Config.php:101
 msgid "Header and footer colors"
-msgstr "页头和页脚颜色"
+msgstr ""
 
 #: functions.php:107 functions.php:127 functions.php:216 search.php:15
 #: ext/yythemes/Config.php:240 ext/yymarket/Config.php:318
 msgid "Home"
-msgstr "首页"
+msgstr ""
 
 #: ext/yythemes/Config.php:250
 msgid "Home Excerpt"
-msgstr "首页摘要"
+msgstr ""
 
 #: ext/yythemes/Config.php:244
 msgid "Home Title"
-msgstr "首页标题"
+msgstr ""
 
 #. Name of the template
 #: ext/yymarket/Ext.php:31
@@ -494,11 +495,11 @@ msgstr ""
 
 #: vessel/widgets/HotPostsWidget.php:29
 msgid "Hot Posts"
-msgstr "热门文章"
+msgstr ""
 
 #: ext/yymarket/xcommerce/templates/single.php:83
 msgid "Hot Recommendation"
-msgstr "热门推荐"
+msgstr ""
 
 #. Author URI of the theme
 msgid "https://www.yythemes.com"
@@ -511,59 +512,58 @@ msgstr ""
 #: vessel/Config.php:264 ext/yythemes/Config.php:225
 #: ext/missnice/Config.php:264 ext/yymarket/Config.php:264
 msgid "ICP Number"
-msgstr "ICP备案号"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:244
 msgid "If not you, please ignore this mail."
-msgstr "如果不是你本人操作，请忽略这封邮件。"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:299
 msgid "Illegal request"
-msgstr "非法请求"
+msgstr ""
 
 #: vessel/Elements.php:265
 msgid "Image"
-msgstr "图片"
+msgstr ""
 
 #: vessel/Elements.php:254 vessel/Elements.php:272
 msgid "Image Path:"
-msgstr "图片路径："
+msgstr ""
 
 #: ext/yymarket/Config.php:341
 msgid "Last published alias"
-msgstr "最新发布别名"
+msgstr ""
 
 #: ext/yymarket/Config.php:347
 msgid "Last published description"
-msgstr "最新发布描述"
+msgstr ""
 
 #: ext/yymarket/Config.php:343
 msgid "Latest publish"
-msgstr "最新发布"
+msgstr ""
 
 #: vessel/Config.php:76 vessel/Config.php:118 ext/yythemes/Config.php:77
 #: ext/yythemes/Config.php:119 ext/missnice/Config.php:76
 #: ext/missnice/Config.php:118 ext/yymarket/Config.php:76
 #: ext/yymarket/Config.php:118
 msgid "Light"
-msgstr "轻柔"
+msgstr ""
 
 #: vessel/ajax/LikeAjax.php:31
 msgid "Liked"
-msgstr "已赞"
+msgstr ""
 
 #: vessel/Config.php:82 vessel/Config.php:124 ext/yythemes/Config.php:83
 #: ext/yythemes/Config.php:125 ext/missnice/Config.php:82
 #: ext/missnice/Config.php:124 ext/yymarket/Config.php:82
 #: ext/yymarket/Config.php:124
-#| msgid "Pink"
 msgid "Link"
-msgstr "链接"
+msgstr ""
 
 #: vessel/Config.php:322 ext/yythemes/Config.php:302
 #: ext/missnice/Config.php:322 ext/yymarket/Config.php:366
 msgid "List Style"
-msgstr "列表风格"
+msgstr ""
 
 #: functions.php:48 functions.php:197 vessel/login/Login.php:59
 #: vessel/login/templates/modal.php:12 vessel/login/templates/modal.php:27
@@ -573,91 +573,91 @@ msgstr "列表风格"
 #: vessel/login/templates/xenice-login.php:135
 #: vessel/login/templates/xenice-login.php:170
 msgid "Login"
-msgstr "登录"
+msgstr ""
 
 #: vessel/login/Login.php:63
 msgid "Login..."
-msgstr "登录中 ..."
+msgstr ""
 
 #: functions.php:191
 msgid "Logout"
-msgstr "退出"
+msgstr ""
 
 #: vessel/vessel.php:160
 msgid "Mail"
-msgstr "邮箱"
+msgstr ""
 
 #: vessel/mail/Config.php:60
 msgid "Mail Account"
-msgstr "邮箱账号"
+msgstr ""
 
 #: vessel/mail/Config.php:99
 msgid "Mail Content"
-msgstr "邮件内容"
+msgstr ""
 
 #: vessel/mail/Config.php:66
 msgid "Mail Password"
-msgstr "邮箱密码"
+msgstr ""
 
 #: vessel/mail/Config.php:26 vessel/mail/Config.php:27
 #: vessel/mail/Config.php:31
 msgid "Mail Settings"
-msgstr "邮箱设置"
+msgstr ""
 
 #: vessel/mail/Config.php:93
 msgid "Mail Title"
-msgstr "邮件标题"
+msgstr ""
 
 #: vessel/Config.php:64 vessel/Config.php:106 ext/yythemes/Config.php:65
 #: ext/yythemes/Config.php:107 ext/missnice/Config.php:64
 #: ext/missnice/Config.php:106 ext/yymarket/Config.php:64
 #: ext/yymarket/Config.php:106
 msgid "Main"
-msgstr "主要"
+msgstr ""
 
 #: functions.php:207
 msgid "Main Menu"
-msgstr "主菜单"
+msgstr ""
 
 #: functions.php:187
 msgid "My orders"
-msgstr "我的订单"
+msgstr ""
 
 #: vessel/login/templates/xenice-login.php:153
 msgid "New password"
-msgstr "新密码"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:294
 msgid "New password: "
-msgstr "新密码："
+msgstr ""
 
 #: single.php:59
 msgid "Next Post"
-msgstr "下一篇文章"
+msgstr ""
 
 #: template-parts/cards-text.php:33 template-parts/cards-thumbnail.php:45
 msgid "No articles."
-msgstr "没有文章"
+msgstr ""
 
 #: ext/yythemes/index.php:48
 msgid "No products."
-msgstr "没有产品。"
+msgstr ""
 
 #: template-parts/related-posts.php:31
 msgid "None .."
-msgstr "暂无 。。"
+msgstr ""
 
 #: 404.php:24
 msgid "Not Found"
-msgstr "没有找不到"
+msgstr ""
 
 #: vessel/widgets/PostsWidget.php:237
 msgid "Number of posts to show:"
-msgstr "要显示的文章数量："
+msgstr ""
 
 #: vessel/about/Config.php:38
 msgid "Official website"
-msgstr "官网"
+msgstr ""
 
 #. Name of the theme
 msgid "onenice"
@@ -673,7 +673,7 @@ msgid ""
 "OneNice is a super concise WordPress theme, supporting both Chinese and "
 "English, free open source, no encryption, no redundant code, no "
 "authorization restrictions, can be used freely."
-msgstr "OneNice是一个超级简洁的WordPress主题，支持中英文两种语言，免费开源，无加密，无冗余代码，无授权限制，可以自由使用。"
+msgstr ""
 
 #: vessel/Config.php:296 vessel/Config.php:302 vessel/Config.php:308
 #: ext/yythemes/Config.php:276 ext/yythemes/Config.php:282
@@ -682,95 +682,95 @@ msgstr "OneNice是一个超级简洁的WordPress主题，支持中英文两种�
 #: ext/yymarket/Config.php:296 ext/yymarket/Config.php:302
 #: ext/yymarket/Config.php:308
 msgid "OneNice Theme"
-msgstr "OneNice主题"
+msgstr ""
 
 #: vessel/vessel.php:157
 msgid "Optimize"
-msgstr "优化"
+msgstr ""
 
 #: vessel/Config.php:144 ext/yythemes/Config.php:145
 #: ext/missnice/Config.php:144 ext/yymarket/Config.php:144
 msgid "Page Width"
-msgstr "页面宽度"
+msgstr ""
 
 #: vessel/login/templates/modal.php:24 vessel/login/templates/modal.php:61
 #: vessel/login/templates/xenice-login.php:75
 #: vessel/login/templates/xenice-login.php:95
 msgid "Password"
-msgstr "密码"
+msgstr ""
 
 #: vessel/login/Login.php:62
 msgid "Password cannot be empty"
-msgstr "密码不能为空"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:293
 msgid "Password changed successfully"
-msgstr "密码修改成功"
+msgstr ""
 
 #: vessel/login/Login.php:77
 msgid "Password changed successfully, please remember the password."
-msgstr "密码修改成功，请记住密码。"
+msgstr ""
 
 #: vessel/login/Login.php:69
 msgid "Password length at least 6"
-msgstr "密码长度至少6位"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:78
 msgid "Password length should not be less than 6"
-msgstr "密码长度不应少于6位"
+msgstr ""
 
 #: comments.php:10
 msgid "Please do not load this page directly. Thanks!"
-msgstr "请不要直接加载此页面。谢谢!"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:70
 msgid "Please enter password"
-msgstr "请输入密码"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:50 vessel/login/ajax/LoginAjax.php:129
 msgid "Please enter username"
-msgstr "请输入用户名"
+msgstr ""
 
 #: vessel/login/templates/xenice-login.php:115
 msgid ""
 "Please enter your username or email address. You will receive a link to "
 "create a new password via email."
-msgstr "请输入您的用户名或电子邮件地址。您将通过电子邮件收到创建新密码的链接。"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:60 vessel/login/ajax/LoginAjax.php:142
 msgid "Please fill in your email address"
-msgstr "请填写您的电子邮件地址"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:294
 msgid ""
 "Please remember the password, you can click the following link to log in: "
-msgstr "请记住密码，您可以点击以下链接登录："
+msgstr ""
 
 #: functions.php:224 vessel/Config.php:368 ext/yythemes/Config.php:348
 #: ext/missnice/Config.php:368 ext/yymarket/Config.php:412
 msgid "Posts"
-msgstr "文章"
+msgstr ""
 
 #: vessel/optimize/Config.php:185
 msgid "Posts link prefix"
-msgstr "文章链接前缀"
+msgstr ""
 
 #: single.php:58
 msgid "Previous Post"
-msgstr "上一篇文章"
+msgstr ""
 
 #: ext/yythemes/header-product.php:80 ext/yythemes/header-product.php:84
 #: ext/yythemes/header-product.php:89
 msgid "Pro download"
-msgstr "专业版下载"
+msgstr ""
 
 #: vessel/optimize/Config.php:111
 msgid "Profile can also be saved when user email is empty"
-msgstr "当用户邮箱为空时，也可以保存配置文件"
+msgstr ""
 
 #: index.php:18 sidebar.php:37 vessel/widgets/RecentPostsWidget.php:27
 msgid "Recent Posts"
-msgstr "最近文章"
+msgstr ""
 
 #: vessel/login/Login.php:60 vessel/login/templates/modal.php:15
 #: vessel/login/templates/modal.php:49 vessel/login/templates/modal.php:73
@@ -779,323 +779,323 @@ msgstr "最近文章"
 #: vessel/login/templates/xenice-login.php:136
 #: vessel/login/templates/xenice-login.php:171
 msgid "Register"
-msgstr "注册"
+msgstr ""
 
 #: vessel/login/Login.php:64
 msgid "Register..."
-msgstr "注册中 ..."
+msgstr ""
 
 #: vessel/login/Login.php:71
 msgid "Registered successfully"
-msgstr "注册成功"
+msgstr ""
 
 #: template-parts/related-posts.php:10
 msgid "Related Posts"
-msgstr "相关文章"
+msgstr ""
 
 #: vessel/optimize/Config.php:117
 msgid "Remove backstage at the top of the W icon in the upper left corner"
-msgstr "删除后台左上角的W图标"
+msgstr ""
 
 #: vessel/optimize/Config.php:141
 msgid "Remove image attributes while editing posts"
-msgstr "在编辑文章时删除图像属性"
+msgstr ""
 
 #: vessel/optimize/Config.php:88
 msgid "Remove the article link subcategory, leaving only the parent category"
-msgstr "删除文章链接子分类，只留下父分类"
+msgstr ""
 
 #: vessel/optimize/Config.php:82
 msgid "Remove the category link prefix"
-msgstr "删除分类链接前缀"
+msgstr ""
 
 #: vessel/login/Login.php:80
 msgid "Resend captcha"
-msgstr "重新发送验证码"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:243
 msgid "Reset password"
-msgstr "重设密码"
+msgstr ""
 
 #: vessel/Admin.php:181 vessel/Config.php:51 ext/yythemes/Config.php:52
 #: ext/missnice/Config.php:51 ext/yymarket/Config.php:51
 msgid "Save Changes"
-msgstr "保存更改"
+msgstr ""
 
 #: vessel/Admin.php:97
 msgid "save failed"
-msgstr "保存失败"
+msgstr ""
 
 #: vessel/Admin.php:90
 msgid "save success"
-msgstr "保存成功"
+msgstr ""
 
 #: header.php:64 search.php:16 ext/yythemes/header-home.php:37
 #: ext/yythemes/header-product.php:42 ext/missnice/header.php:50
 #: ext/yymarket/Config.php:337
 msgid "Search"
-msgstr "搜索"
+msgstr ""
 
 #: ext/yymarket/Config.php:328
 msgid "Search box description"
-msgstr "搜索框描述"
+msgstr ""
 
 #: ext/yymarket/Config.php:335
 msgid "Search box tips"
-msgstr "搜索框提示"
+msgstr ""
 
 #: ext/yymarket/Config.php:322
 msgid "Search box title"
-msgstr "搜索框标题"
+msgstr ""
 
 #: ext/yymarket/Config.php:324
 msgid "Search website resources"
-msgstr "搜索网站资源"
+msgstr ""
 
 #: vessel/Elements.php:162
 msgid "Select"
-msgstr "选择"
+msgstr ""
 
 #: vessel/mail/Config.php:89
 msgid "Send"
-msgstr "发送"
+msgstr ""
 
 #: vessel/login/Login.php:82 vessel/login/templates/xenice-login.php:103
 msgid "Send captcha"
-msgstr "发送验证码"
+msgstr ""
 
 #: vessel/mail/Mail.php:58
 msgid "Send failure"
-msgstr "发送失败"
+msgstr ""
 
 #: vessel/login/Login.php:79
 msgid "Send in..."
-msgstr "发送中..."
+msgstr ""
 
 #: vessel/mail/Config.php:88
 msgid "Send Mail"
-msgstr "发送邮件"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:251
 msgid "Send mail failed, please try again later"
-msgstr "邮件发送失败，请稍后再试"
+msgstr ""
 
 #: vessel/mail/Mail.php:53
 msgid "Send successfully"
-msgstr "发送成功"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:108
 msgid "Server timeout, please try again later"
-msgstr "服务器超时，请稍后再试"
+msgstr ""
 
 #: vessel/vessel.php:150
 msgid "Settings"
-msgstr "设置"
+msgstr ""
 
 #: vessel/Config.php:358 vessel/Config.php:379 ext/yythemes/Config.php:338
 #: ext/yythemes/Config.php:359 ext/missnice/Config.php:358
 #: ext/missnice/Config.php:379 ext/yymarket/Config.php:402
 #: ext/yymarket/Config.php:423
 msgid "Show Author"
-msgstr "显示作者"
+msgstr ""
 
 #: vessel/Config.php:351 vessel/Config.php:372 ext/yythemes/Config.php:331
 #: ext/yythemes/Config.php:352 ext/missnice/Config.php:351
 #: ext/missnice/Config.php:372 ext/yymarket/Config.php:395
 #: ext/yymarket/Config.php:416
 msgid "Show Date"
-msgstr "显示日期"
+msgstr ""
 
 #: vessel/Config.php:251 ext/yythemes/Config.php:212
 #: ext/missnice/Config.php:251 ext/yymarket/Config.php:251
 msgid "Show Login Button"
-msgstr "显示登录按钮"
+msgstr ""
 
 #: vessel/Config.php:393 ext/yythemes/Config.php:373
 #: ext/missnice/Config.php:393 ext/yymarket/Config.php:437
 msgid "Show Previous/Next Posts"
-msgstr "显示上一篇/下一篇 文章"
+msgstr ""
 
 #: vessel/Config.php:400 ext/yythemes/Config.php:380
 #: ext/missnice/Config.php:400 ext/yymarket/Config.php:444
 msgid "Show Related Posts"
-msgstr "显示相关文章"
+msgstr ""
 
 #: vessel/Config.php:244 ext/yythemes/Config.php:205
 #: ext/missnice/Config.php:244 ext/yymarket/Config.php:244
 msgid "Show Search"
-msgstr "显示搜索"
+msgstr ""
 
 #: vessel/Config.php:407 ext/yythemes/Config.php:387
 #: ext/missnice/Config.php:407 ext/yymarket/Config.php:451
 msgid "Show Share"
-msgstr "显示分享"
+msgstr ""
 
 #: vessel/Config.php:386 ext/yythemes/Config.php:366
 #: ext/missnice/Config.php:386 ext/yymarket/Config.php:430
 msgid "Show Tags"
-msgstr "显示标签"
+msgstr ""
 
 #: vessel/Config.php:152 ext/yythemes/Config.php:153
 #: ext/missnice/Config.php:152 ext/yymarket/Config.php:152
 msgid "Site Icon"
-msgstr "网站图标"
+msgstr ""
 
 #: vessel/Config.php:345 ext/yythemes/Config.php:325
 #: ext/missnice/Config.php:345 ext/yymarket/Config.php:389
 msgid "Site Loading Image"
-msgstr "网站加载时图片"
+msgstr ""
 
 #: vessel/Config.php:238 ext/yythemes/Config.php:199
 #: ext/missnice/Config.php:238 ext/yymarket/Config.php:238
 msgid "Site Logo"
-msgstr "网站LOGO"
+msgstr ""
 
 #: vessel/Config.php:339 ext/yythemes/Config.php:319
 #: ext/missnice/Config.php:339 ext/yymarket/Config.php:383
 msgid "Site Thumbnail"
-msgstr "网站缩略图"
+msgstr ""
 
 #: vessel/Config.php:279 vessel/Config.php:283 ext/yythemes/Config.php:259
 #: ext/yythemes/Config.php:263 ext/missnice/Config.php:279
 #: ext/missnice/Config.php:283 ext/yymarket/Config.php:279
 #: ext/yymarket/Config.php:283
 msgid "Slides"
-msgstr "幻灯片"
+msgstr ""
 
 #: vessel/Config.php:290 ext/yythemes/Config.php:270
 #: ext/missnice/Config.php:290 ext/yymarket/Config.php:290
 msgid "Slides Settings"
-msgstr "幻灯片设置"
+msgstr ""
 
 #: vessel/mail/Config.php:72
 msgid "SMTP Auth"
-msgstr "SMTP验证"
+msgstr ""
 
 #: vessel/mail/Config.php:35
 msgid "SMTP email server"
-msgstr "SMTP邮箱服务器"
+msgstr ""
 
 #: vessel/mail/Config.php:48
 msgid "SMTP Host"
-msgstr "SMTP主机"
+msgstr ""
 
 #: vessel/mail/Config.php:54
 msgid "SMTP Port"
-msgstr "SMTP端口"
+msgstr ""
 
 #: vessel/mail/Config.php:79
 msgid "SMTP Secure"
-msgstr "SMTP安全"
+msgstr ""
 
 #: 404.php:25
 msgid "Sorry, the page you visited has migrated or does not exist"
-msgstr "对不起，您访问的页面已迁移或不存在"
+msgstr ""
 
 #: vessel/Config.php:158 ext/yythemes/Config.php:159
 #: ext/missnice/Config.php:158 ext/yymarket/Config.php:158
 msgid "Static library CDN"
-msgstr "静态库CDN"
+msgstr ""
 
 #: template-parts/sticky-posts.php:102 vessel/widgets/StickyPostsWidget.php:29
 msgid "Sticky Posts"
-msgstr "置顶文章"
+msgstr ""
 
 #: vessel/login/Login.php:183
 msgid "Successfully copied to clipboard"
-msgstr "成功复制到剪贴板"
+msgstr ""
 
 #: sidebar.php:21
 msgid "Tag Cloud"
-msgstr "标签云"
+msgstr ""
 
 #: single.php:43
 msgid "Tags: "
-msgstr "标签："
+msgstr ""
 
 #: vessel/Config.php:325 ext/yythemes/Config.php:305
 #: ext/missnice/Config.php:325 ext/yymarket/Config.php:369
 msgid "Text"
-msgstr "文本"
+msgstr ""
 
 #: vessel/about/Config.php:27
 #, php-format
 msgid "Thanks for using the <a href=\"%s\" target=\"_blank\">%s</a> theme."
-msgstr "感谢使用<a href=\"%s\" target=\"_blank\">%s</a>主题。"
+msgstr ""
 
 #: vessel/login/Login.php:184
 msgid "The browser does not support link clicks to copy to the clipboard"
-msgstr "浏览器不支持单击链接复制到剪贴板"
+msgstr ""
 
 #: vessel/login/Login.php:70
 msgid "The captcha cannot be empty"
-msgstr "验证码不能为空"
+msgstr ""
 
 #: vessel/login/Login.php:83
 msgid "The captcha failed to send. Please try again later."
-msgstr "发送验证码失败。请稍后再试。"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:198 vessel/login/ajax/LoginAjax.php:272
 msgid "The captcha is incorrect"
-msgstr "验证码错误"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:66
 msgid "The email address has been registered"
-msgstr "邮箱地址已注册"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:63
 msgid "The email address is incorrect"
-msgstr "邮箱地址不正确"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:145
 msgid "The email format is incorrect"
-msgstr "邮箱格式错误"
+msgstr ""
 
 #: vessel/login/Login.php:74
 msgid ""
 "The link has been successfully sent to your email, please check and confirm."
-msgstr "链接已成功发送到您的邮箱，请查收确认。"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:56 vessel/login/ajax/LoginAjax.php:133
 msgid "The username has been registered"
-msgstr "已注册用户名"
+msgstr ""
 
 #: ext/yythemes/index.php:38 ext/yythemes/header-product.php:96
 msgid "Theme demo"
-msgstr "主题演示"
+msgstr ""
 
 #: vessel/optimize/Config.php:26 vessel/optimize/Config.php:27
 msgid "Theme optimization"
-msgstr "主题优化"
+msgstr ""
 
 #: vessel/Config.php:50 vessel/Config.php:52 ext/yythemes/Config.php:51
 #: ext/yythemes/Config.php:53 ext/missnice/Config.php:50
 #: ext/missnice/Config.php:52 ext/yymarket/Config.php:50
 #: ext/yymarket/Config.php:52
 msgid "Theme settings"
-msgstr "主题设置"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:148
 msgid "This email address has been registered, please change it"
-msgstr "此邮箱已注册，请更改"
+msgstr ""
 
 #: comments.php:15
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "这篇文章有密码保护。输入密码以查看注释。"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:53 vessel/login/ajax/LoginAjax.php:131
 msgid "This username contains an invalid character"
-msgstr "此用户名包含无效字符"
+msgstr ""
 
 #: vessel/Config.php:326 ext/yythemes/Config.php:306
 #: ext/missnice/Config.php:326 ext/yymarket/Config.php:370
 msgid "Thumbnail"
-msgstr "缩略图"
+msgstr ""
 
 #: vessel/Elements.php:250 vessel/Elements.php:268
 #: vessel/widgets/PostsWidget.php:211
 msgid "Title:"
-msgstr "标题："
+msgstr ""
 
 #: vessel/Elements.php:248 vessel/Elements.php:266
 msgid "URL:"
@@ -1103,57 +1103,57 @@ msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:214
 msgid "User does not set email"
-msgstr "用户没有设置邮箱"
+msgstr ""
 
 #: vessel/login/templates/modal.php:55
 #: vessel/login/templates/xenice-login.php:89
 msgid "Username"
-msgstr "用户名"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:127
 msgid "Username at least 6 characters"
-msgstr "用户名至少6个字符"
+msgstr ""
 
 #: vessel/login/Login.php:67
 msgid ""
 "Username can only be 6-16 characters composed of alphanumeric or underlined "
 "characters"
-msgstr "用户名由字母、数字或下划线组成，长度为6 ~ 16个字符"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:209
 msgid "Username does not exist"
-msgstr "用户名不存在"
+msgstr ""
 
 #: vessel/login/templates/modal.php:21
 #: vessel/login/templates/xenice-login.php:72
 #: vessel/login/templates/xenice-login.php:121
 msgid "Username or Email"
-msgstr "用户名或邮箱地址"
+msgstr ""
 
 #: vessel/login/Login.php:61 vessel/login/Login.php:72
 msgid "Username or email cannot be empty"
-msgstr "用户名和邮箱不能为空"
+msgstr ""
 
 #: vessel/login/Login.php:65
 msgid "Username or password wrong"
-msgstr "用户名或密码错误"
+msgstr ""
 
 #: vessel/about/Config.php:32
 msgid "Version"
-msgstr "版本"
+msgstr ""
 
 #: ext/yythemes/index.php:36
 msgid "View details"
-msgstr "查看详情"
+msgstr ""
 
 #: ext/yymarket/xcommerce/templates/download-part.php:41
 #: ext/yymarket/xcommerce/templates/download-part.php:48
 msgid "VIP download"
-msgstr "会员下载"
+msgstr ""
 
 #: ext/yymarket/xcommerce/templates/download-part.php:83
 msgid "VIP free"
-msgstr "会员免费"
+msgstr ""
 
 #: ext/yymarket/Config.php:350
 msgid ""
@@ -1173,11 +1173,11 @@ msgstr ""
 msgid ""
 "When the post does not have a thumbnail, use the first image of the post as "
 "a thumbnail"
-msgstr "当文章没有缩略图时，使用文章的第一张图片作为缩略图"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:244 vessel/login/ajax/LoginAjax.php:294
 msgid "With the best wishes"
-msgstr "此致"
+msgstr ""
 
 #. Author of the theme
 msgid "Xenice"
@@ -1185,40 +1185,40 @@ msgstr ""
 
 #: vessel/widgets/HotPostsWidget.php:30
 msgid "Xenice Hot Posts"
-msgstr "Xenice 热门文章"
+msgstr ""
 
 #: vessel/login/Login.php:29
 msgid "Xenice Login"
-msgstr "Xenice 登录"
+msgstr ""
 
 #: vessel/widgets/RecentPostsWidget.php:28
 msgid "Xenice Recent Posts"
-msgstr "Xenice 最新文章"
+msgstr ""
 
 #: vessel/widgets/StickyPostsWidget.php:31
 msgid "Xenice Sticky Posts"
-msgstr "Xenice 置顶文章"
+msgstr ""
 
 #: vessel/ajax/LikeAjax.php:17
 msgid "You already liked it"
-msgstr "你已经点赞过了"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:244
 msgid ""
 "You have just initiated a password reset request, please click the following "
 "link to reset your password:"
-msgstr "您刚刚发起了密码重置请求，请点击以下链接重置密码："
+msgstr ""
 
 #: vessel/login/Login.php:78
 msgid "Your operation too fast, please wait a moment."
-msgstr "您的操作太快了，请稍等。"
+msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:294
 msgid "Your password has been changed successfully, user name: "
-msgstr "密码修改成功，用户名："
+msgstr ""
 
 #: ext/yymarket/Config.php:331
 msgid ""
 "YYSmarket is a virtual resource paid download mall theme developed by "
 "YYThemes"
-msgstr "YYSmarket是YYThemes开发的虚拟资源付费下载商城主题"
+msgstr ""

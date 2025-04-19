@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: onenice\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 03:34+0000\n"
+"POT-Creation-Date: 2023-10-12 05:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,27 +16,27 @@ msgstr ""
 "X-Loco-Version: 2.6.2; wp-6.0.3\n"
 "X-Domain: onenice"
 
-#: functions.php:344
+#: functions.php:346
 msgid " days ago"
 msgstr ""
 
-#: functions.php:345
+#: functions.php:347
 msgid " hours ago"
 msgstr ""
 
-#: functions.php:346
+#: functions.php:348
 msgid " minutes ago"
 msgstr ""
 
-#: functions.php:343
+#: functions.php:345
 msgid " months ago"
 msgstr ""
 
-#: functions.php:347
+#: functions.php:349
 msgid " seconds ago"
 msgstr ""
 
-#: functions.php:342
+#: functions.php:344
 msgid " years ago"
 msgstr ""
 
@@ -50,7 +50,7 @@ msgid ":"
 msgstr ""
 
 #. Description of the theme
-msgid "A simple wordpress theme"
+msgid "A simple and beautiful wordpress theme"
 msgstr ""
 
 #: vessel/vessel.php:163
@@ -69,12 +69,11 @@ msgstr ""
 msgid "Advanced"
 msgstr ""
 
-#: vessel/Config.php:318 ext/yythemes/Config.php:298
-#: ext/missnice/Config.php:318 ext/yymarket/Config.php:318
+#: vessel/Config.php:304 ext/web/Config.php:318
 msgid "Archive"
 msgstr ""
 
-#: functions.php:232
+#: functions.php:234
 msgid "archive"
 msgstr ""
 
@@ -86,8 +85,7 @@ msgstr ""
 msgid "Auto create post slug"
 msgstr ""
 
-#: vessel/Config.php:169 ext/missnice/Config.php:169
-#: ext/yymarket/Config.php:169
+#: vessel/Config.php:169 ext/web/Config.php:169
 msgid "Auxiliary functions"
 msgstr ""
 
@@ -95,22 +93,16 @@ msgstr ""
 msgid "Back to home"
 msgstr ""
 
-#: functions.php:577
+#: functions.php:587
 msgid "Back to top"
-msgstr ""
-
-#: ext/yythemes/Config.php:172
-msgid "Back to top button"
 msgstr ""
 
 #: vessel/optimize/Config.php:99
 msgid "Back-end optimization"
 msgstr ""
 
-#: vessel/Config.php:88 vessel/Config.php:130 ext/yythemes/Config.php:89
-#: ext/yythemes/Config.php:131 ext/missnice/Config.php:88
-#: ext/missnice/Config.php:130 ext/yymarket/Config.php:88
-#: ext/yymarket/Config.php:130
+#: vessel/Config.php:88 vessel/Config.php:130 ext/web/Config.php:88
+#: ext/web/Config.php:130
 msgid "Background "
 msgstr ""
 
@@ -119,10 +111,10 @@ msgid "Buy VIP "
 msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:184 vessel/login/ajax/LoginAjax.php:185
-#: vessel/login/templates/modal.php:67
 #: vessel/login/templates/xenice-login.php:101
 #: vessel/login/templates/xenice-login.php:124
 #: vessel/login/templates/xenice-login.php:159
+#: vessel/login/templates/modal.php:67
 msgid "Captcha"
 msgstr ""
 
@@ -160,9 +152,9 @@ msgstr ""
 msgid "Comments (%s)"
 msgstr ""
 
-#: vessel/login/templates/modal.php:64
 #: vessel/login/templates/xenice-login.php:98
 #: vessel/login/templates/xenice-login.php:156
+#: vessel/login/templates/modal.php:64
 msgid "Confirm password"
 msgstr ""
 
@@ -174,10 +166,8 @@ msgstr ""
 msgid "Create a unique slug the first time you save the article"
 msgstr ""
 
-#: vessel/Config.php:70 vessel/Config.php:112 ext/yythemes/Config.php:71
-#: ext/yythemes/Config.php:113 ext/missnice/Config.php:70
-#: ext/missnice/Config.php:112 ext/yymarket/Config.php:70
-#: ext/yymarket/Config.php:112
+#: vessel/Config.php:70 vessel/Config.php:112 ext/web/Config.php:70
+#: ext/web/Config.php:112
 msgid "Dark"
 msgstr ""
 
@@ -185,8 +175,7 @@ msgstr ""
 msgid "Dear "
 msgstr ""
 
-#: vessel/Config.php:161 ext/yythemes/Config.php:162
-#: ext/missnice/Config.php:161 ext/yymarket/Config.php:161
+#: vessel/Config.php:161 ext/web/Config.php:161
 msgid "Defalut"
 msgstr ""
 
@@ -194,21 +183,12 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: vessel/Config.php:270 ext/yythemes/Config.php:231
-#: ext/missnice/Config.php:270 ext/yymarket/Config.php:270
+#: vessel/Config.php:256 ext/web/Config.php:270
 msgid "Delete Theme Copyright"
-msgstr ""
-
-#: ext/yymarket/xcommerce/templates/download-part.php:72
-msgid "Demo url"
 msgstr ""
 
 #: vessel/Elements.php:252 vessel/Elements.php:270
 msgid "Description:"
-msgstr ""
-
-#: ext/yymarket/xcommerce/templates/single.php:63
-msgid "Detailed Introduction"
 msgstr ""
 
 #: vessel/vessel.php:171
@@ -243,8 +223,7 @@ msgstr ""
 msgid "Disable revision"
 msgstr ""
 
-#: vessel/Config.php:414 ext/yythemes/Config.php:394
-#: ext/missnice/Config.php:414 ext/yymarket/Config.php:414
+#: vessel/Config.php:400 ext/web/Config.php:414
 msgid "Disable Share Buttons"
 msgstr ""
 
@@ -264,8 +243,12 @@ msgstr ""
 msgid "Display post thumbnail?"
 msgstr ""
 
-#: vessel/login/templates/modal.php:58
+#: page.php:22 single.php:35 ext/web/single.php:30
+msgid "Edit"
+msgstr ""
+
 #: vessel/login/templates/xenice-login.php:92
+#: vessel/login/templates/modal.php:58
 msgid "Email"
 msgstr ""
 
@@ -281,35 +264,18 @@ msgstr ""
 msgid "Email format error"
 msgstr ""
 
-#: vessel/Config.php:245 vessel/Config.php:252 vessel/Config.php:271
-#: vessel/Config.php:284 vessel/Config.php:352 vessel/Config.php:359
-#: vessel/Config.php:373 vessel/Config.php:380 vessel/Config.php:387
-#: vessel/Config.php:394 vessel/Config.php:401 vessel/Config.php:408
-#: ext/yythemes/Config.php:173 ext/yythemes/Config.php:180
-#: ext/yythemes/Config.php:187 ext/yythemes/Config.php:206
-#: ext/yythemes/Config.php:213 ext/yythemes/Config.php:232
-#: ext/yythemes/Config.php:264 ext/yythemes/Config.php:332
-#: ext/yythemes/Config.php:339 ext/yythemes/Config.php:353
-#: ext/yythemes/Config.php:360 ext/yythemes/Config.php:367
-#: ext/yythemes/Config.php:374 ext/yythemes/Config.php:381
-#: ext/yythemes/Config.php:388 ext/yythemes/Config.php:403
-#: ext/missnice/Config.php:245 ext/missnice/Config.php:252
-#: ext/missnice/Config.php:271 ext/missnice/Config.php:284
-#: ext/missnice/Config.php:352 ext/missnice/Config.php:359
-#: ext/missnice/Config.php:373 ext/missnice/Config.php:380
-#: ext/missnice/Config.php:387 ext/missnice/Config.php:394
-#: ext/missnice/Config.php:401 ext/missnice/Config.php:408
-#: ext/yymarket/Config.php:245 ext/yymarket/Config.php:252
-#: ext/yymarket/Config.php:271 ext/yymarket/Config.php:284
-#: ext/yymarket/Config.php:352 ext/yymarket/Config.php:359
-#: ext/yymarket/Config.php:373 ext/yymarket/Config.php:380
-#: ext/yymarket/Config.php:387 ext/yymarket/Config.php:394
-#: ext/yymarket/Config.php:401 ext/yymarket/Config.php:408
+#: vessel/Config.php:231 vessel/Config.php:238 vessel/Config.php:257
+#: vessel/Config.php:270 vessel/Config.php:338 vessel/Config.php:345
+#: vessel/Config.php:359 vessel/Config.php:366 vessel/Config.php:373
+#: vessel/Config.php:380 vessel/Config.php:387 vessel/Config.php:394
+#: ext/web/Config.php:245 ext/web/Config.php:252 ext/web/Config.php:271
+#: ext/web/Config.php:284 ext/web/Config.php:352 ext/web/Config.php:359
+#: ext/web/Config.php:373 ext/web/Config.php:380 ext/web/Config.php:387
+#: ext/web/Config.php:394 ext/web/Config.php:401 ext/web/Config.php:408
 msgid "Enable"
 msgstr ""
 
-#: vessel/Config.php:221 ext/missnice/Config.php:221
-#: ext/yymarket/Config.php:221
+#: vessel/Config.php:209 ext/web/Config.php:221
 msgid "Enable back to top button"
 msgstr ""
 
@@ -321,13 +287,11 @@ msgstr ""
 msgid "Enable classic widget"
 msgstr ""
 
-#: vessel/Config.php:185 ext/yythemes/Config.php:402
-#: ext/missnice/Config.php:185 ext/yymarket/Config.php:185
+#: vessel/Config.php:185 ext/web/Config.php:185
 msgid "Enable Code Highlight"
 msgstr ""
 
-#: vessel/Config.php:199 ext/missnice/Config.php:199
-#: ext/yymarket/Config.php:199
+#: vessel/Config.php:199 ext/web/Config.php:199
 msgid "Enable css animation"
 msgstr ""
 
@@ -335,8 +299,7 @@ msgstr ""
 msgid "Enable gravatar acceleration"
 msgstr ""
 
-#: vessel/Config.php:217 ext/missnice/Config.php:217
-#: ext/yymarket/Config.php:217
+#: ext/web/Config.php:217
 msgid "Enable home sticky posts."
 msgstr ""
 
@@ -344,8 +307,7 @@ msgstr ""
 msgid "Enable link"
 msgstr ""
 
-#: vessel/Config.php:205 ext/missnice/Config.php:205
-#: ext/yymarket/Config.php:205
+#: ext/web/Config.php:205
 msgid "Enable PhotoSwipe"
 msgstr ""
 
@@ -357,13 +319,11 @@ msgstr ""
 msgid "Enable SMTP email server"
 msgstr ""
 
-#: vessel/Config.php:179 ext/yythemes/Config.php:186
-#: ext/missnice/Config.php:179 ext/yymarket/Config.php:179
+#: vessel/Config.php:179 ext/web/Config.php:179
 msgid "Enable theme login interface"
 msgstr ""
 
-#: vessel/Config.php:173 ext/yythemes/Config.php:179
-#: ext/missnice/Config.php:173 ext/yymarket/Config.php:173
+#: vessel/Config.php:173 ext/web/Config.php:173
 msgid "Enable theme widgets"
 msgstr ""
 
@@ -376,8 +336,7 @@ msgstr ""
 msgid "Error request, please check email for reset password link"
 msgstr ""
 
-#: vessel/Config.php:332 ext/yythemes/Config.php:312
-#: ext/missnice/Config.php:332 ext/yymarket/Config.php:332
+#: vessel/Config.php:318 ext/web/Config.php:332
 msgid "Excerpt Length"
 msgstr ""
 
@@ -397,15 +356,12 @@ msgstr ""
 msgid "Fill in ssl if SMTP Auth service is enabled, leave blank if not"
 msgstr ""
 
-#: vessel/Config.php:260 ext/yythemes/Config.php:221
-#: ext/missnice/Config.php:260 ext/yymarket/Config.php:260
+#: vessel/Config.php:246 ext/web/Config.php:260
 msgid "Footer"
 msgstr ""
 
-#: vessel/Config.php:94 vessel/Config.php:136 ext/yythemes/Config.php:95
-#: ext/yythemes/Config.php:137 ext/missnice/Config.php:94
-#: ext/missnice/Config.php:136 ext/yymarket/Config.php:94
-#: ext/yymarket/Config.php:136
+#: vessel/Config.php:94 vessel/Config.php:136 ext/web/Config.php:94
+#: ext/web/Config.php:136
 msgid "Foreground"
 msgstr ""
 
@@ -415,15 +371,6 @@ msgstr ""
 
 #: vessel/login/templates/modal.php:30
 msgid "Forget password?"
-msgstr ""
-
-#: ext/yythemes/header-product.php:69
-#: ext/yymarket/xcommerce/templates/download-part.php:67
-msgid "Free download"
-msgstr ""
-
-#: ext/yymarket/xcommerce/templates/download-part.php:58
-msgid "Free for members"
 msgstr ""
 
 #: vessel/mail/Config.php:42
@@ -446,18 +393,15 @@ msgstr ""
 msgid "Get New Password"
 msgstr ""
 
-#: vessel/Config.php:211 ext/missnice/Config.php:211
-#: ext/yymarket/Config.php:211
+#: vessel/Config.php:205 ext/web/Config.php:211
 msgid "Give a like"
 msgstr ""
 
-#: vessel/Config.php:56 ext/yythemes/Config.php:57 ext/missnice/Config.php:56
-#: ext/yymarket/Config.php:56
+#: vessel/Config.php:56 ext/web/Config.php:56
 msgid "Global"
 msgstr ""
 
-#: vessel/Config.php:59 ext/yythemes/Config.php:60 ext/missnice/Config.php:59
-#: ext/yymarket/Config.php:59
+#: vessel/Config.php:59 ext/web/Config.php:59
 msgid "Global Colors"
 msgstr ""
 
@@ -465,35 +409,20 @@ msgstr ""
 msgid "Global optimization"
 msgstr ""
 
-#: vessel/Config.php:234 ext/yythemes/Config.php:195
-#: ext/missnice/Config.php:234 ext/yymarket/Config.php:234
+#: vessel/Config.php:220 ext/web/Config.php:234
 msgid "Header"
 msgstr ""
 
-#: vessel/Config.php:101 ext/yythemes/Config.php:102
-#: ext/missnice/Config.php:101 ext/yymarket/Config.php:101
+#: vessel/Config.php:101 ext/web/Config.php:101
 msgid "Header and footer colors"
 msgstr ""
 
-#: functions.php:107 functions.php:127 functions.php:216 search.php:15
-#: ext/yythemes/Config.php:240
+#: functions.php:107 functions.php:127 functions.php:218 search.php:15
 msgid "Home"
-msgstr ""
-
-#: ext/yythemes/Config.php:250
-msgid "Home Excerpt"
-msgstr ""
-
-#: ext/yythemes/Config.php:244
-msgid "Home Title"
 msgstr ""
 
 #: vessel/widgets/HotPostsWidget.php:29
 msgid "Hot Posts"
-msgstr ""
-
-#: ext/yymarket/xcommerce/templates/single.php:83
-msgid "Hot Recommendation"
 msgstr ""
 
 #. Author URI of the theme
@@ -501,11 +430,10 @@ msgid "https://www.yythemes.com"
 msgstr ""
 
 #. URI of the theme
-msgid "https://www.yythemes.com/themes/onenice"
+msgid "https://www.yythemes.com/themes/missnice"
 msgstr ""
 
-#: vessel/Config.php:264 ext/yythemes/Config.php:225
-#: ext/missnice/Config.php:264 ext/yymarket/Config.php:264
+#: vessel/Config.php:250 ext/web/Config.php:264
 msgid "ICP Number"
 msgstr ""
 
@@ -525,36 +453,31 @@ msgstr ""
 msgid "Image Path:"
 msgstr ""
 
-#: vessel/Config.php:76 vessel/Config.php:118 ext/yythemes/Config.php:77
-#: ext/yythemes/Config.php:119 ext/missnice/Config.php:76
-#: ext/missnice/Config.php:118 ext/yymarket/Config.php:76
-#: ext/yymarket/Config.php:118
+#: vessel/Config.php:76 vessel/Config.php:118 ext/web/Config.php:76
+#: ext/web/Config.php:118
 msgid "Light"
 msgstr ""
 
-#: vessel/ajax/LikeAjax.php:31
+#: single.php:48 ext/web/single.php:46 vessel/ajax/LikeAjax.php:31
 msgid "Liked"
 msgstr ""
 
-#: vessel/Config.php:82 vessel/Config.php:124 ext/yythemes/Config.php:83
-#: ext/yythemes/Config.php:125 ext/missnice/Config.php:82
-#: ext/missnice/Config.php:124 ext/yymarket/Config.php:82
-#: ext/yymarket/Config.php:124
+#: vessel/Config.php:82 vessel/Config.php:124 ext/web/Config.php:82
+#: ext/web/Config.php:124
 msgid "Link"
 msgstr ""
 
-#: vessel/Config.php:322 ext/yythemes/Config.php:302
-#: ext/missnice/Config.php:322 ext/yymarket/Config.php:322
+#: vessel/Config.php:308 ext/web/Config.php:322
 msgid "List Style"
 msgstr ""
 
-#: functions.php:48 functions.php:197 vessel/login/Login.php:59
-#: vessel/login/templates/modal.php:12 vessel/login/templates/modal.php:27
-#: vessel/login/templates/modal.php:46
+#: functions.php:48 functions.php:199 vessel/login/Login.php:59
 #: vessel/login/templates/xenice-login.php:78
 #: vessel/login/templates/xenice-login.php:111
 #: vessel/login/templates/xenice-login.php:135
 #: vessel/login/templates/xenice-login.php:170
+#: vessel/login/templates/modal.php:12 vessel/login/templates/modal.php:27
+#: vessel/login/templates/modal.php:46
 msgid "Login"
 msgstr ""
 
@@ -562,7 +485,7 @@ msgstr ""
 msgid "Login..."
 msgstr ""
 
-#: functions.php:191
+#: functions.php:193
 msgid "Logout"
 msgstr ""
 
@@ -591,15 +514,21 @@ msgstr ""
 msgid "Mail Title"
 msgstr ""
 
-#: vessel/Config.php:64 vessel/Config.php:106 ext/yythemes/Config.php:65
-#: ext/yythemes/Config.php:107 ext/missnice/Config.php:64
-#: ext/missnice/Config.php:106 ext/yymarket/Config.php:64
-#: ext/yymarket/Config.php:106
+#: vessel/Config.php:64 vessel/Config.php:106 ext/web/Config.php:64
+#: ext/web/Config.php:106
 msgid "Main"
 msgstr ""
 
-#: functions.php:207
+#: functions.php:209
 msgid "Main Menu"
+msgstr ""
+
+#: functions.php:191
+msgid "Manage"
+msgstr ""
+
+#. Name of the theme
+msgid "missnice pro"
 msgstr ""
 
 #: functions.php:187
@@ -614,16 +543,12 @@ msgstr ""
 msgid "New password: "
 msgstr ""
 
-#: single.php:59
+#: single.php:59 ext/web/single.php:57
 msgid "Next Post"
 msgstr ""
 
-#: template-parts/cards-text.php:33 template-parts/cards-thumbnail.php:45
+#: template-parts/cards-thumbnail.php:45 template-parts/cards-text.php:33
 msgid "No articles."
-msgstr ""
-
-#: ext/yythemes/index.php:48
-msgid "No products."
 msgstr ""
 
 #: template-parts/related-posts.php:31
@@ -642,28 +567,16 @@ msgstr ""
 msgid "Official website"
 msgstr ""
 
-#. Name of the theme
-msgid "onenice"
-msgstr ""
-
-#: vessel/Config.php:297 vessel/Config.php:303 vessel/Config.php:309
-#: ext/yythemes/Config.php:277 ext/yythemes/Config.php:283
-#: ext/yythemes/Config.php:289 ext/missnice/Config.php:297
-#: ext/missnice/Config.php:303 ext/missnice/Config.php:309
-#: ext/yymarket/Config.php:297 ext/yymarket/Config.php:303
-#: ext/yymarket/Config.php:309
+#: vessel/Config.php:283 vessel/Config.php:289 vessel/Config.php:295
+#: ext/web/Config.php:297 ext/web/Config.php:303 ext/web/Config.php:309
 msgid ""
 "OneNice is a super concise WordPress theme, supporting both Chinese and "
 "English, free open source, no encryption, no redundant code, no "
 "authorization restrictions, can be used freely."
 msgstr ""
 
-#: vessel/Config.php:296 vessel/Config.php:302 vessel/Config.php:308
-#: ext/yythemes/Config.php:276 ext/yythemes/Config.php:282
-#: ext/yythemes/Config.php:288 ext/missnice/Config.php:296
-#: ext/missnice/Config.php:302 ext/missnice/Config.php:308
-#: ext/yymarket/Config.php:296 ext/yymarket/Config.php:302
-#: ext/yymarket/Config.php:308
+#: vessel/Config.php:282 vessel/Config.php:288 vessel/Config.php:294
+#: ext/web/Config.php:296 ext/web/Config.php:302 ext/web/Config.php:308
 msgid "OneNice Theme"
 msgstr ""
 
@@ -671,14 +584,13 @@ msgstr ""
 msgid "Optimize"
 msgstr ""
 
-#: vessel/Config.php:144 ext/yythemes/Config.php:145
-#: ext/missnice/Config.php:144 ext/yymarket/Config.php:144
+#: vessel/Config.php:144 ext/web/Config.php:144
 msgid "Page Width"
 msgstr ""
 
-#: vessel/login/templates/modal.php:24 vessel/login/templates/modal.php:61
 #: vessel/login/templates/xenice-login.php:75
 #: vessel/login/templates/xenice-login.php:95
+#: vessel/login/templates/modal.php:24 vessel/login/templates/modal.php:61
 msgid "Password"
 msgstr ""
 
@@ -729,8 +641,7 @@ msgid ""
 "Please remember the password, you can click the following link to log in: "
 msgstr ""
 
-#: functions.php:224 vessel/Config.php:368 ext/yythemes/Config.php:348
-#: ext/missnice/Config.php:368 ext/yymarket/Config.php:368
+#: functions.php:226 vessel/Config.php:354 ext/web/Config.php:368
 msgid "Posts"
 msgstr ""
 
@@ -738,29 +649,25 @@ msgstr ""
 msgid "Posts link prefix"
 msgstr ""
 
-#: single.php:58
+#: single.php:58 ext/web/single.php:56
 msgid "Previous Post"
-msgstr ""
-
-#: ext/yythemes/header-product.php:80 ext/yythemes/header-product.php:84
-#: ext/yythemes/header-product.php:89
-msgid "Pro download"
 msgstr ""
 
 #: vessel/optimize/Config.php:111
 msgid "Profile can also be saved when user email is empty"
 msgstr ""
 
-#: index.php:18 sidebar.php:37 vessel/widgets/RecentPostsWidget.php:27
+#: index.php:17 sidebar.php:37 ext/web/index.php:12
+#: vessel/widgets/RecentPostsWidget.php:27
 msgid "Recent Posts"
 msgstr ""
 
-#: vessel/login/Login.php:60 vessel/login/templates/modal.php:15
-#: vessel/login/templates/modal.php:49 vessel/login/templates/modal.php:73
-#: vessel/login/templates/xenice-login.php:83
+#: vessel/login/Login.php:60 vessel/login/templates/xenice-login.php:83
 #: vessel/login/templates/xenice-login.php:107
 #: vessel/login/templates/xenice-login.php:136
 #: vessel/login/templates/xenice-login.php:171
+#: vessel/login/templates/modal.php:15 vessel/login/templates/modal.php:49
+#: vessel/login/templates/modal.php:73
 msgid "Register"
 msgstr ""
 
@@ -800,8 +707,7 @@ msgstr ""
 msgid "Reset password"
 msgstr ""
 
-#: vessel/Admin.php:181 vessel/Config.php:51 ext/yythemes/Config.php:52
-#: ext/missnice/Config.php:51 ext/yymarket/Config.php:51
+#: vessel/Admin.php:181 vessel/Config.php:51 ext/web/Config.php:51
 msgid "Save Changes"
 msgstr ""
 
@@ -813,9 +719,7 @@ msgstr ""
 msgid "save success"
 msgstr ""
 
-#: header.php:64 search.php:16 ext/yythemes/header-home.php:37
-#: ext/yythemes/header-product.php:42 ext/missnice/header.php:42
-#: ext/yymarket/header.php:42 ext/yymarket/index.php:23
+#: header.php:64 search.php:16 ext/web/header.php:53
 msgid "Search"
 msgstr ""
 
@@ -859,79 +763,62 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: vessel/Config.php:358 vessel/Config.php:379 ext/yythemes/Config.php:338
-#: ext/yythemes/Config.php:359 ext/missnice/Config.php:358
-#: ext/missnice/Config.php:379 ext/yymarket/Config.php:358
-#: ext/yymarket/Config.php:379
+#: vessel/Config.php:344 vessel/Config.php:365 ext/web/Config.php:358
+#: ext/web/Config.php:379
 msgid "Show Author"
 msgstr ""
 
-#: vessel/Config.php:351 vessel/Config.php:372 ext/yythemes/Config.php:331
-#: ext/yythemes/Config.php:352 ext/missnice/Config.php:351
-#: ext/missnice/Config.php:372 ext/yymarket/Config.php:351
-#: ext/yymarket/Config.php:372
+#: vessel/Config.php:337 vessel/Config.php:358 ext/web/Config.php:351
+#: ext/web/Config.php:372
 msgid "Show Date"
 msgstr ""
 
-#: vessel/Config.php:251 ext/yythemes/Config.php:212
-#: ext/missnice/Config.php:251 ext/yymarket/Config.php:251
+#: vessel/Config.php:237 ext/web/Config.php:251
 msgid "Show Login Button"
 msgstr ""
 
-#: vessel/Config.php:393 ext/yythemes/Config.php:373
-#: ext/missnice/Config.php:393 ext/yymarket/Config.php:393
+#: vessel/Config.php:379 ext/web/Config.php:393
 msgid "Show Previous/Next Posts"
 msgstr ""
 
-#: vessel/Config.php:400 ext/yythemes/Config.php:380
-#: ext/missnice/Config.php:400 ext/yymarket/Config.php:400
+#: vessel/Config.php:386 ext/web/Config.php:400
 msgid "Show Related Posts"
 msgstr ""
 
-#: vessel/Config.php:244 ext/yythemes/Config.php:205
-#: ext/missnice/Config.php:244 ext/yymarket/Config.php:244
+#: vessel/Config.php:230 ext/web/Config.php:244
 msgid "Show Search"
 msgstr ""
 
-#: vessel/Config.php:407 ext/yythemes/Config.php:387
-#: ext/missnice/Config.php:407 ext/yymarket/Config.php:407
+#: vessel/Config.php:393 ext/web/Config.php:407
 msgid "Show Share"
 msgstr ""
 
-#: vessel/Config.php:386 ext/yythemes/Config.php:366
-#: ext/missnice/Config.php:386 ext/yymarket/Config.php:386
+#: vessel/Config.php:372 ext/web/Config.php:386
 msgid "Show Tags"
 msgstr ""
 
-#: vessel/Config.php:152 ext/yythemes/Config.php:153
-#: ext/missnice/Config.php:152 ext/yymarket/Config.php:152
+#: vessel/Config.php:152 ext/web/Config.php:152
 msgid "Site Icon"
 msgstr ""
 
-#: vessel/Config.php:345 ext/yythemes/Config.php:325
-#: ext/missnice/Config.php:345 ext/yymarket/Config.php:345
+#: vessel/Config.php:331 ext/web/Config.php:345
 msgid "Site Loading Image"
 msgstr ""
 
-#: vessel/Config.php:238 ext/yythemes/Config.php:199
-#: ext/missnice/Config.php:238 ext/yymarket/Config.php:238
+#: vessel/Config.php:224 ext/web/Config.php:238
 msgid "Site Logo"
 msgstr ""
 
-#: vessel/Config.php:339 ext/yythemes/Config.php:319
-#: ext/missnice/Config.php:339 ext/yymarket/Config.php:339
+#: vessel/Config.php:325 ext/web/Config.php:339
 msgid "Site Thumbnail"
 msgstr ""
 
-#: vessel/Config.php:279 vessel/Config.php:283 ext/yythemes/Config.php:259
-#: ext/yythemes/Config.php:263 ext/missnice/Config.php:279
-#: ext/missnice/Config.php:283 ext/yymarket/Config.php:279
-#: ext/yymarket/Config.php:283
+#: vessel/Config.php:265 vessel/Config.php:269 ext/web/Config.php:279
+#: ext/web/Config.php:283
 msgid "Slides"
 msgstr ""
 
-#: vessel/Config.php:290 ext/yythemes/Config.php:270
-#: ext/missnice/Config.php:290 ext/yymarket/Config.php:290
+#: vessel/Config.php:276 ext/web/Config.php:290
 msgid "Slides Settings"
 msgstr ""
 
@@ -959,12 +846,12 @@ msgstr ""
 msgid "Sorry, the page you visited has migrated or does not exist"
 msgstr ""
 
-#: vessel/Config.php:158 ext/yythemes/Config.php:159
-#: ext/missnice/Config.php:158 ext/yymarket/Config.php:158
+#: vessel/Config.php:158 ext/web/Config.php:158
 msgid "Static library CDN"
 msgstr ""
 
-#: template-parts/sticky-posts.php:102 vessel/widgets/StickyPostsWidget.php:29
+#: vessel/widgets/StickyPostsWidget.php:29
+#: ext/web/template-parts/sticky-posts.php:106
 msgid "Sticky Posts"
 msgstr ""
 
@@ -976,12 +863,11 @@ msgstr ""
 msgid "Tag Cloud"
 msgstr ""
 
-#: single.php:43
+#: single.php:43 ext/web/single.php:41
 msgid "Tags: "
 msgstr ""
 
-#: vessel/Config.php:325 ext/yythemes/Config.php:305
-#: ext/missnice/Config.php:325 ext/yymarket/Config.php:325
+#: vessel/Config.php:311 ext/web/Config.php:325
 msgid "Text"
 msgstr ""
 
@@ -1027,18 +913,12 @@ msgstr ""
 msgid "The username has been registered"
 msgstr ""
 
-#: ext/yythemes/index.php:38 ext/yythemes/header-product.php:96
-msgid "Theme demo"
-msgstr ""
-
 #: vessel/optimize/Config.php:26 vessel/optimize/Config.php:27
 msgid "Theme optimization"
 msgstr ""
 
-#: vessel/Config.php:50 vessel/Config.php:52 ext/yythemes/Config.php:51
-#: ext/yythemes/Config.php:53 ext/missnice/Config.php:50
-#: ext/missnice/Config.php:52 ext/yymarket/Config.php:50
-#: ext/yymarket/Config.php:52
+#: vessel/Config.php:50 vessel/Config.php:52 ext/web/Config.php:50
+#: ext/web/Config.php:52
 msgid "Theme settings"
 msgstr ""
 
@@ -1054,8 +934,7 @@ msgstr ""
 msgid "This username contains an invalid character"
 msgstr ""
 
-#: vessel/Config.php:326 ext/yythemes/Config.php:306
-#: ext/missnice/Config.php:326 ext/yymarket/Config.php:326
+#: vessel/Config.php:312 ext/web/Config.php:326
 msgid "Thumbnail"
 msgstr ""
 
@@ -1072,8 +951,8 @@ msgstr ""
 msgid "User does not set email"
 msgstr ""
 
-#: vessel/login/templates/modal.php:55
 #: vessel/login/templates/xenice-login.php:89
+#: vessel/login/templates/modal.php:55
 msgid "Username"
 msgstr ""
 
@@ -1091,9 +970,9 @@ msgstr ""
 msgid "Username does not exist"
 msgstr ""
 
-#: vessel/login/templates/modal.php:21
 #: vessel/login/templates/xenice-login.php:72
 #: vessel/login/templates/xenice-login.php:121
+#: vessel/login/templates/modal.php:21
 msgid "Username or Email"
 msgstr ""
 
@@ -1109,19 +988,13 @@ msgstr ""
 msgid "Version"
 msgstr ""
 
-#: ext/yythemes/index.php:36
-msgid "View details"
-msgstr ""
-
-#: vessel/Config.php:415 ext/yythemes/Config.php:395
-#: ext/missnice/Config.php:415 ext/yymarket/Config.php:415
+#: vessel/Config.php:401 ext/web/Config.php:415
 msgid ""
 "weibo,wechat,qq,douban,qzone,tencent,linkedin,diandian,google,twitter,"
 "facebook"
 msgstr ""
 
-#: vessel/Config.php:191 ext/missnice/Config.php:191
-#: ext/yymarket/Config.php:191
+#: vessel/Config.php:191 ext/web/Config.php:191
 msgid ""
 "When the post does not have a thumbnail, use the first image of the post as "
 "a thumbnail"
@@ -1129,10 +1002,6 @@ msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:244 vessel/login/ajax/LoginAjax.php:294
 msgid "With the best wishes"
-msgstr ""
-
-#. Author of the theme
-msgid "Xenice"
 msgstr ""
 
 #: vessel/widgets/HotPostsWidget.php:30
@@ -1167,4 +1036,8 @@ msgstr ""
 
 #: vessel/login/ajax/LoginAjax.php:294
 msgid "Your password has been changed successfully, user name: "
+msgstr ""
+
+#. Author of the theme
+msgid "YYThemes"
 msgstr ""

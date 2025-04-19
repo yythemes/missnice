@@ -60,7 +60,7 @@ class PostsWidget extends \WP_Widget {
 		$query_args                   = $this->query_args;
 		$query_args['posts_per_page'] = $number;
 
-		if ( $instance['category'] ) {
+		if ( !empty($instance['category']) ) {
 			$query_args['cat'] = $instance['category'];
 		}
 
